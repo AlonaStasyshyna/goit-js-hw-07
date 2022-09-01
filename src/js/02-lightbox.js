@@ -3,7 +3,6 @@ import { galleryItems } from "./gallery-items.js";
 
 const gallery = document.querySelector(".gallery");
 const itemsOfGallary = createGalleryItems(galleryItems);
-let instance;
 
 gallery.innerHTML = itemsOfGallary;
 
